@@ -25,15 +25,17 @@ A simulation of a self-driving car that learns to navigate its environment using
 ---
 
 ## 📂 Project Structure
+
+```bash
 Self-Learning-Car-Simulation/
-├── README.md
-├── index.html
-├── style.css
-├── main.js
-├── car.js
-├── controls.js
-├── road.js
-├── sensor.js
-├── network.js
-├── utils.js
-└── visualizer.js
+├── README.md        # Project documentation
+├── index.html       # Entry point of the application
+├── style.css        # Styling for UI
+├── main.js          # Main simulation logic
+├── car.js           # Car behavior and movement
+├── controls.js      # User/control logic
+├── road.js          # Road generation
+├── sensor.js        # Sensor logic for detection
+├── network.js       # Neural network implementation
+├── utils.js         # Helper functions
+└── visualizer.js    # Visualization of neural network
